@@ -34,14 +34,3 @@ CodeSandbox - (https://codesandbox.io/p/github/uditnigam/Excel-React/main?import
 | HTML         | Markup                      |
 
 ---
-
-
-## 🧠 Future Enhancements
-
-➕ Insert/Delete rows & columns
-
-💾 Save grid to local storage
-
-📤 Export data to CSV
-
-🔍 Column filtering
