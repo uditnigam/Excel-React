@@ -10,6 +10,8 @@ An Excel-style interactive grid built with React — supports editable cells, ke
 
 ---
 
+![Screenshot](./assets/screenshot.png)
+
 ## 🧠 Features
 
 - 🔤 A-Z column headers and 1-N row indexes
@@ -34,20 +36,8 @@ An Excel-style interactive grid built with React — supports editable cells, ke
 
 ---
 
-## 📂 Folder Structure
 
-📁 src
-┣ 📄 App.jsx
-┣ 📄 index.js
-┣ 📁 components
-┃ ┣ 📄 Excel.jsx
-┃ ┣ 📄 ExcelGrid.jsx
-┃ ┗ 📄 ColumnLetter.js
-┣ 📄 Excel.css
-┣ 📄 ExcelGrid.css
-
-
-🏗️ Future Enhancements
+## 🧠 Future Enhancements
 
 ➕ Insert/Delete rows & columns
 
