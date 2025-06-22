@@ -3,14 +3,13 @@
 An Excel-style interactive grid built with React — supports editable cells, keyboard navigation, dynamic headers, and a clean UI.
 
 ---
+![Excel Grid Screenshot](./assets/Excel.png)
 
 ## 🚀 Live Demo
 
-[CodeSandbox](https://codesandbox.io/) 🌐
+CodeSandbox - (https://codesandbox.io/p/github/uditnigam/Excel-React/main?import=true) 🌐
 
 ---
-
-![Screenshot](./assets/screenshot.png)
 
 ## 🧠 Features
 
@@ -46,5 +45,3 @@ An Excel-style interactive grid built with React — supports editable cells, ke
 📤 Export data to CSV
 
 🔍 Column filtering
-
-

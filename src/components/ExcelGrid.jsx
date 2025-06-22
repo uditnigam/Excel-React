@@ -35,35 +35,35 @@ const ExcelGrid = ({ rows, cols }) => {
 
     if (e.key === "ArrowUp") {
       e.preventDefault();
-      if (newRow == 0) {
+      if (newRow === 0) {
         newRow = selectedRow;
       } else {
         newRow = selectedRow - 1;
       }
     } else if (e.key === "ArrowDown") {
       e.preventDefault();
-      if (rows == newRow + 1) {
+      if (rows === newRow + 1) {
         newRow = selectedRow;
       } else {
         newRow = selectedRow + 1;
       }
     } else if (e.key === "ArrowLeft") {
       e.preventDefault();
-      if (newCol == 0) {
+      if (newCol === 0) {
         newCol = selectedColumn;
       } else {
         newCol = selectedColumn - 1;
       }
     } else if (e.key === "ArrowRight") {
       e.preventDefault();
-      if (rows == newCol + 1) {
+      if (rows === newCol + 1) {
         newCol = selectedColumn;
       } else {
         newCol = selectedColumn + 1;
       }
     } else if (e.key === "Tab") {
       e.preventDefault();
-      if (rows == newCol + 1) {
+      if (rows === newCol + 1) {
         newRow = selectedRow + 1;
         newCol = 0;
       } else {
