@@ -1,0 +1,76 @@
+.excel-grid-cont {
+  position: absolute;
+  top: 9%;
+}
+.header-cont {
+  display: flex;
+  position: sticky;
+  top: 9%;
+  border-bottom: 1px solid #d6d5d5;
+}
+.left-corner {
+  font-size: 15px;
+  width: 35px;
+  background-color: #f7f2ff;
+  position: sticky;
+  left: 0%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  color: #444444;
+  border-right: 1px solid #d6d5d5;
+}
+.right-header {
+  display: flex;
+  background-color: #f7f2ff;
+  color: #444444;
+}
+.main-grid-cont {
+  display: flex;
+}
+.left-index {
+  width: 35px;
+  background-color: #f7f2ff;
+  position: sticky;
+  left: 0%;
+  color: #444444;
+  border-right: 1px solid #d6d5d5;
+}
+.cols {
+  height: 35px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #d6d5d5;
+}
+.rows {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid #d6d5d5;
+}
+.input-box {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+.input-box.active {
+  background-color: #f7f2ff;
+}
+
+.cols.active {
+  background-color: #cfc5de;
+  font-weight: bold;
+}
+
+.rows.active {
+  background-color: #cfc5de;
+  font-weight: bold;
+}
