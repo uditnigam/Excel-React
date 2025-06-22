@@ -36,3 +36,13 @@ An Excel-style interactive grid built with React — supports editable cells, ke
 | HTML         | Markup                      |
 
 ---
+
+## 🧠 Future Enhancements
+
+➕ Insert/Delete rows & columns
+
+💾 Save grid to local storage
+
+📤 Export data to CSV
+
+🔍 Column filtering
